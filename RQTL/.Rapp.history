@@ -1,0 +1,251 @@
+hist(diss, prob=T, xlab="Euclidean distance", ylab="Probability Density", main="Historgram of Pairwise Dissimilarity among DH lines and Parents")
+lines(density(diss, adjust=2), lty=33, col="darkred", lwd=2)
+legend(x="topleft", Density Dist., col="darkred", lty="dotted", lwd=2)
+legend(x="topleft", Density Dist, col="darkred", lty="dotted", lwd=2
+legend(x="topleft", legend="Density Dist.", col="darkred", lty="dotted", lwd=2
+)
+366/598
+phat<-366/598
+phat
+se<-sqrt(phat*(1-phat)/598)
+se
+c(phat-qnorm(.99)*se, phat+qnorm(.99)*se)
+??confint
+se<-sqrt(phat*(1-phat)/150)
+se
+c(phat-qnorm(0.995)*se, phat+qnorm(.995)*se)
+23/13
+scutellata<-c(23/13,21/14,21/14,)
+scutellata<-c(23/13,21/14,21/14,20/14,21/12,20/14,20/13,19/13,19/13,21/13,18/11,22/13)
+mean(scutellata)
+mode(scutellata)
+temp<-table(as.vector(scutellata))
+names(temp[temp==max(temp)])
+2051/300
+1318/300
+sample(c("H","T"), 10, replace=T)
+coin<-([i], 1:10000)
+coin<-(NA, 1:10000)
+coin<-(NA, [1:10000])
+coin<-rep(NA, 10000)
+for (i in 1:10000){
+coin<-sample(c("H","T"), 10, replace=T)
+??poisson
+1a<-c(5,4,0,0,11,7,0,2,0,9)
+x<-c(5,4,0,0,11,7,0,2,0,9)
+length(x)
+dpois(x)
+mean(x)
+dpois(x,3.8, log=T)
+ppois(x, 3.8, lower.tail=T, log.p=T)
+ppois(x, 3.8, lower.tail=t)
+hist(x)
+ascos<-read.table(/Users/JKC/Documents/STAT 3011/Project/ProjectAscos.txt, header = T, sep = "\t")
+ascos<-read.table("/Users/JKC/Documents/STAT 3011/Project/ProjectAscos.txt", header = T, sep = "\t")
+basidios<-read.table("/Users/JKC/Documents/STAT 3011/Project/ProjectBasidios.txt", header = T, sep = "\t")
+ascos
+basidios
+ascos[1]
+ascos[2]
+basidios[2]
+basidios[1]
+basidios[3]
+basidios
+ascos
+basidios<-read.table("/Users/JKC/Documents/STAT 3011/Project/ProjectBasidios.txt", header = T, sep = "\t")
+basidios
+??t.test
+t.test(ascos[1], basidios[2], alternative="two.sided", conf.level = 0.95)
+t.test(ascos[2], basidios[2], alternative="two.sided", conf.level = 0.95)
+t.test(ascos[3],basidios[3], alternative="two.sided", conf.level=0.95)
+??factor
+??confint
+>qt(.95,29)
+qt(.95,29)
+??qt
+qt(0.9,29)
+attach(ascos)
+ascos
+attach(basidios)
+summary(ascos)
+summary(basidios)
+survey.data<- read.table("http://www.stat.umn.edu/~crolling/
+data/survey_s12.txt",header=T)
+survey.data<- read.table("http://www.stat.umn.edu/~crolling/
+data/survey_s12.txt",header=T)
+survey.data<- read.table("http://www.stat.umn.edu/~crolling/#
+data/survey_s12.txt",header=T)
+survey.data<- read.table("http://www.stat.umn.edu/~crolling/data/survey_s12.txt",header=T)
+attach(survey.data)
+summary(StudyHours)
+m=mean(StudyHours)
+sd=sd(StudyHours)
+n=length(StudyHours)
+t=qt(0.975, n-1)
+k=sd/sqrt(n)
+c(m-k*t, m+k*t)
+t.test(StudyHours)
+race<-read.table("Users/JKC/Documents/M.S. Project/Thesis material/Sando Data/Race ChiSquare.txt", sep="\t", header=T)
+race<-read.table("Users/JKC/Desktop/Race ChiSquare.txt", sep="\t", header=T)
+race<-read.table("/Users/JKC/Desktop/Race ChiSquare.txt", sep="\t", header=T)
+??chi
+race
+attach(race)
+race
+chisq.test(race)
+chisq.test(TTKSK,TTKST)
+cor(TTKSK,TTKST)
+cor(TTKSK,TRTTF)
+cor(TTKSK,TTKST,method="pearson")
+require(Hmisc)
+rcorr(TTKSK,TTKST, type="pearson")
+cor(TTKSK,TTKST,method="pearson")
+??cor
+cor.test(TTKSK,TTKST,alternative="two-seded", method="pearson", conf.level=0.95)
+cor.test(TTKSK,TTKST,alternative="two.sided", method="pearson", conf.level=0.95)
+race
+cor.test(TTKSK,TTTSK,alternative="two.sided", method="pearson", conf.level=0.95)
+cor.test(TTKSK,TRTTF,alternative="two.sided", method="pearson", conf.level=0.95)
+cor.test(TTKSK,TTTTF,alternative="two.sided", method="pearson", conf.level=0.95)
+cor.test(TTKSK,TPMKC,alternative="two.sided", method="pearson", conf.level=0.95)
+cor.test(TTKSK,QTHJC,alternative="two.sided", method="pearson", conf.level=0.95)
+cor.test(TTKSK,RKQQC,alternative="two.sided", method="pearson", conf.level=0.95)
+cor.test(TTKST,TTTSK,alternative="two.sided", method="pearson", conf.level=0.95)
+cor.test(TTKST,TRTTF,alternative="two.sided", method="pearson", conf.level=0.95)
+cor.test(TTKST,TTTTF,alternative="two.sided", method="pearson", conf.level=0.95)
+cor.test(TTKST,TPMKC,alternative="two.sided", method="pearson", conf.level=0.95)
+cor.test(TTKST,QTHJC,alternative="two.sided", method="pearson", conf.level=0.95)
+cor.test(TTKST,RKQQC,alternative="two.sided", method="pearson", conf.level=0.95)
+cor.test(race,alternative = "two.sided", method = "pearson", conf.level=0.95)
+rcorr(race)
+cor(race)
+??cor
+cor.test(TTKST,RKQQC,alternative="two.sided", method="spearman", conf.level=0.95)
+cor.test(TTTSK,RKQQC,alternative="two.sided", method="pearson", conf.level=0.95)
+cor.test(TTTSK,TRTTF,alternative="two.sided", method="pearson", conf.level=0.95)
+cor.test(TTTSK,TTTTF,alternative="two.sided", method="pearson", conf.level=0.95)
+cor.test(TTTSK,TPMKC,alternative="two.sided", method="pearson", conf.level=0.95)
+cor.test(TTTSK,QTHJC,alternative="two.sided", method="pearson", conf.level=0.95)
+cor.test(TTTSK,RKQQC,alternative="two.sided", method="pearson", conf.level=0.95)
+cor.test(TRTTF,TTTTF,alternative="two.sided", method="pearson", conf.level=0.95)
+cor.test(TRTTF,TPMKC,alternative="two.sided", method="pearson", conf.level=0.95)
+cor.test(TRTTF,QTHJC,alternative="two.sided", method="pearson", conf.level=0.95)
+cor.test(TRTTF,RKQQC,alternative="two.sided", method="pearson", conf.level=0.95)
+cor.test(TTTTF,TPMKC,alternative="two.sided", method="pearson", conf.level=0.95)
+cor.test(TTTTF,QTHJC,alternative="two.sided", method="pearson", conf.level=0.95)
+cor.test(TTTTF,RKQQC,alternative="two.sided", method="pearson", conf.level=0.95)
+cor.test(TPMKC,QTHJC,alternative="two.sided", method="pearson", conf.level=0.95)
+cor.test(TPMKC,RKQQC,alternative="two.sided", method="pearson", conf.level=0.95)
+cor.test(QTHJC,RKQQC,alternative="two.sided", method="pearson", conf.level=0.95)
+??scatter
+stripchart(race)
+boxplot(race)
+scatter.smooth(TTKSK,TTKST)
+cor.test(TTKSK, race[2:3], alternative="two.sided", conf.level=0.95)
+cor.test(QTHJC,RKQQC,alternative="two.sided", method="pearson", conf.level=0.95)
+sqrt(((.6)(.4))/1000)
+sqrt((.6*.4)/1000)
+se<-sqrt((.6*.4)/1000)
+.6 + 1.645*se
+.6 - 1.645 *se
+(200^2*1.96^2)/(25^2)
+1.96*(300/sqrt(246))
+budtv<-c(0,5,0,1,2)
+mean(budtv)
+sd(budtv)
+std<-function(budtv) sd(budtv)/sqrt(length(budtv))
+std<-function(x) sd(x)/sqrt(length(x))
+std(budtv)
+??t.test
+t.test(budtv, alternative="two.sided", conf.level=0.95)
+t.test(budtv, alternative="greater", conf.level=0.95)
+se<-std(budtv)
+1.6 + 2.776*se
+1.6 - 2.776*se
+income <- c(90, 77, 100, 83, 64, 78, 92, 73, 122, 96, 60, 85,86, 108, 70, 139, 56, 94, 84, 111, 93, 120, 70, 92, 100, 124,59, 112, 79)
+boxplot(income)
+mean(income)
+std(income)
+t.test(income, alternative="two.sided", conf.level=0.95)
+??sd
+sd(income)
+??qt
+x<-seq(-4,4, length=100)
+hx<-dt(x,29)
+plot(x, hx, type="1", lty=2, xlab="x value", ylab="Density", main "t-Distribution w/ 29 df")
+plot(x, hx, type="1", lty=2, xlab="x value", ylab="Density", main= "t-Distribution w/ 29 df")
+plot(x, hx, lty=2, xlab="x value", ylab="Density", main= "t-Distribution w/ 29 df")
+??plot
+plot(x, hx,type=1, lty=2, xlab="x value", ylab="Density", main= "t-Distribution w/ 29 df")
+plot(x, hx,type=l, lty=2, xlab="x value", ylab="Density", main= "t-Distribution w/ 29 df")
+plot(x, hx,type="l", lty=2, xlab="x value", ylab="Density", main= "t-Distribution w/ 29 df")
+plot(x, hx,type="l", lty=1, xlab="x value", ylab="Density", main= "t-Distribution w/ 29 df")
+plot(x, hx,type="l", lty=1, color ="red", xlab="x value", ylab="Density", main= "t-Distribution w/ 29 df")
+??line
+qt(.95, 29)
+x<-seq(-3.4,3.4, length=100)
+hx<-dt(x,29)
+plot(x, hx,type="l", lty=1, xlab="x value", ylab="Density", main= "t-Distribution w/ 29 df")
+abline(a = 1.699, h=c(0:0.4), col="red", lty=33)
+abline(a = 1.699, b=null, h=c(0:0.4), col="red", lty=33)
+abline(a = 1.699, b=NA, h=c(0:0.4), col="red", lty=33)
+abline(h=1.699, col="red", lty=33)
+plot(x, hx,type="l", lty=1, xlab="x value", ylab="Density", main= "t-Distribution w/ 29 df")
+abline(h=1.699, col="red", lty=33)
+plot(x, hx,type="l", lty=1, xlab="x value", ylab="Density", main= "t-Distribution w/ 29 df")
+abline(h=1.699, col="red", lty=33)
+abline(h=1.699, col="red", lty=dotted)
+abline(h=1.699, col="red", \dots)
+abline(h=1.699, col="red", lty=3)
+abline(v=1.699, col="red", lty=3)
+abline(v=1.699, col="red", lty=3, label="t 0.05")
+abline(v=1.699, col="red", lty=3, ylab="t 0.05")
+abline(v=1.699, col="red", lty=3, xlab="t 0.05")
+??xlab
+text(1.75, 0.2, "t"[0.05], col="red")
+plot(x, hx,type="l", lty=1, xlab="x value", ylab="Density", main= "t-Distribution w/ 29 df")
+abline(v=1.699, col="red", lty=3, xlab="t 0.05")
+text(1.75, 0.2, "t"[0.05], col="red")
+??text
+text(1.75, 0.2, labels="t"[0.05], col="red")
+text(1.75, 0.2, labels=("t"[0.05]), col="red")
+text(1.75, 0.2, labels=t, col="red")
+text(1.75, 0.2, labels="t", col="red")
+text(1.75, 0.2, labels="t[0.05]", col="red")
+text(1.75, 0.2, labels=expression("t"[0.05]), col="red")
+plot(x, hx,type="l", lty=1, xlab="x value", ylab="Density", main= "t-Distribution w/ 29 df")
+abline(v=1.699, col="red", lty=3, xlab="t 0.05")
+text(1.75, 0.2, labels=expression("t"[0.05]), col="red")
+plot(x, hx,type="l", lty=1, xlab="x value", ylab="Density", main= "t-Distribution w/ 29 df")
+abline(v=1.699, col="red", lty=3, xlab="t 0.05")
+text(1.9, 0.2, labels=expression("t"[0.05]), col="red")
+survey.data<- read.table("http://www.stat.umn.edu/~crolling/data/survey_s12.txt",header=T)
+attach(survey.data)
+summary(StudyHours)
+length(StudyHours)
+sd(StudyHours)
+qt(0.975,58)
+n=length(StudyHours)
+t=qt(0.975, n-1)
+k=sd/sqrt(n)
+m=mean(StudyHours)
+sd=sd(StudyHours)
+n=length(StudyHours)
+t=qt(0.975, n-1)
+k=sd/sqrt(n)
+c(m-k*t, m+k*t)
+t.test(StudyHours)
+require(rrBLUP)
+setwd("/Users/JKC/Documents/M.S. Project/Thesis Material/Thesis/RQTL")
+pheno<-as.data.frame(read.table("Pheno.10.30.txt", header=T, sep="\t"))
+geno<-as.data.frame(read.table("Full Data Table.txt",header=T,sep="\t"))
+geno<-as.data.frame(read.table("Full Data Table.txt",header=T,sep="\t"))
+dim(Markers)
+dim(pheno)
+dim(geno)
+GWAS(pheno,geno)
+Markers1<-as.matrix(read.table("markers.11.2.txt", header=F))
+pheno<-as.data.frame(read.table("Pheno.10.30.txt", header=T, sep="\t"))
+impute=A.mat(Markers1,max.missing=0.5, impute.method="mean", return.imputed=T)
+GWAS(pheno, geno, P3D=F)
+GWAS(pheno, geno, min.MAF=0.1, P3D=F)
